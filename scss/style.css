@@ -24,7 +24,6 @@ header {
 header div {
   padding-right: 10px;
   height: 50px;
-  background-color: #333;
   overflow: hidden;
 }
 
@@ -77,7 +76,7 @@ header div a {
   font-family: "Inter", sans-serif;
   margin: 0 auto;
   text-align: center;
-  color: white;
+  color: #ffffff;
   font-size: 4.6rem;
   font-weight: 400;
   line-height: 4.8rem;
@@ -124,7 +123,7 @@ header div a {
   font-family: "Inter", sans-serif;
   height: 45px;
   padding: 10px 15px 0;
-  color: white;
+  color: #ffffff;
   font-size: 3.0rem;
   font-weight: 700;
   text-overflow: ellipsis;
@@ -204,7 +203,7 @@ header div a {
   width: 260px;
 }
 
-.button--container #load-more {
+.button--container button {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   width: 260px;
@@ -212,7 +211,8 @@ header div a {
   border-radius: 15px;
   border: none;
   background-color: #10b0c8;
-  color: white;
+  color: #ffffff;
   font-size: 2.0rem;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;700&display=swap');
+$dark-grey: #24282f;
+$grey: #3c3e44;
+$white-font: #ffffff;
+$primary-font-color: #10b0c8;
 
 * {
     box-sizing: border-box;
@@ -9,7 +13,7 @@
 html {
 	font-size: 62.5%;
 	width: 100vw;
-    background-color: #24282f;
+    background-color: $dark-grey;
 }
 
 header {
@@ -18,11 +22,10 @@ header {
     bottom: 0;
     width: 100vw;
     height: 50px;
-    background-color: #3c3e44;
+    background-color: $grey;
     div {
         padding-right: 10px;
         height: 50px;
-        background-color: #333;
         overflow: hidden;
         img {
             //height: 50px;
@@ -36,7 +39,7 @@ header {
             font-family: "Inter", sans-serif;
             font-weight: 400;
             float: right;
-            color: #10b0c8;
+            color: $primary-font-color;
             text-align: center;
             padding: 16.5px 8px;
             text-decoration: none;
@@ -69,7 +72,7 @@ header {
             font-family: "Inter", sans-serif;
             margin: 0 auto;
             text-align: center;
-            color: white;
+            color: $white-font;
             font-size: 4.6rem;
             font-weight: 400;
             line-height: 4.8rem;
@@ -96,7 +99,7 @@ header {
         height: auto;
         width: 100%;
         max-width: 300px;
-        background-color: #3c3e44;
+        background-color: $grey;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
         .character-name--container {
@@ -105,7 +108,7 @@ header {
                 font-family: "Inter", sans-serif;
                 height: 45px;
                 padding: 10px 15px 0;
-                color: white;
+                color: $white-font;
                 font-size: 3.0rem;
                 font-weight: 700;
                 text-overflow: ellipsis;
@@ -133,7 +136,7 @@ header {
                     font-weight: 300;
                     margin: auto 0;
                     height: fit-content;
-                    color: #10b0c8;
+                    color: $primary-font-color;
                     font-size: 1.1rem;
                     text-align: center;
                 }
@@ -153,7 +156,7 @@ header {
                     font-weight: 300;
                     margin: auto 0;
                     height: fit-content;
-                    color: #10b0c8;
+                    color: $primary-font-color;
                     font-size: 1.1rem;
                     text-align: center;
                     padding-right: 10px;
@@ -167,17 +170,17 @@ header {
 .button--container{
     margin: 35px auto 0;
     width: 260px;
-    #load-more {
+    button {
         font-family: "Inter", sans-serif;
         font-weight: 400;
         width: 260px;
         height: 45px;
         border-radius: 15px;
         border: none;
-        background-color: #10b0c8;
-        color: white;
+        background-color: $primary-font-color;
+        color: $white-font;
         font-size: 2.0rem;
+        cursor: pointer;
     }
 }
-
   
