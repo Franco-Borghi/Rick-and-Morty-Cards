@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  width: 100vw;
+  background-color: #24282f;
+}
+
+header {
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 50px;
+  background-color: #3c3e44;
+}
+
+header div {
+  padding-right: 10px;
+  height: 50px;
+  background-color: #333;
+  overflow: hidden;
+}
+
+header div img {
+  width: 140px;
+  padding-left: 10px;
+  -o-object-position: 0 -8px;
+     object-position: 0 -8px;
+}
+
+header div a {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  float: right;
+  color: #10b0c8;
+  text-align: center;
+  padding: 16.5px 8px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.banner {
+  height: 250px;
+}
+
+.banner__img {
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cards__section {
+  position: relative;
+  top: -100px;
+}
+
+.cards__section .title__div--container {
+  max-width: 1020px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards__section .title__div--container h1 {
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 4.6rem;
+  font-weight: 400;
+  line-height: 4.8rem;
+  width: 260px;
+}
+
+.character-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 260px;
+  max-width: 360px;
+  margin: 15px auto;
+  padding: 0 30px;
+}
+
+.character-card img {
+  width: 100%;
+  max-width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.character-card .card-info {
+  height: auto;
+  width: 100%;
+  max-width: 300px;
+  background-color: #3c3e44;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.character-card .card-info .character-name--container {
+  width: 100%;
+}
+
+.character-card .card-info .character-name--container .character-name {
+  font-family: "Inter", sans-serif;
+  height: 45px;
+  padding: 10px 15px 0;
+  color: white;
+  font-size: 3.0rem;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.character-card .card-info .flex-location--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.character-card .card-info .flex-location--container .status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50%;
+  height: 50px;
+}
+
+.character-card .card-info .flex-location--container .status div {
+  width: 12px;
+  height: 12px;
+  border-radius: 60%;
+  margin: auto 15px;
+}
+
+.character-card .card-info .flex-location--container .status h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  margin: auto 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: #10b0c8;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.character-card .card-info .flex-location--container .location {
+  height: 50px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.character-card .card-info .flex-location--container .location img {
+  width: 20px;
+  height: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: auto 6px;
+}
+
+.character-card .card-info .flex-location--container .location h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  margin: auto 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: #10b0c8;
+  font-size: 1.1rem;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.button--container {
+  margin: 35px auto 0;
+  width: 260px;
+}
+
+.button--container #load-more {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  width: 260px;
+  height: 45px;
+  border-radius: 15px;
+  border: none;
+  background-color: #10b0c8;
+  color: white;
+  font-size: 2.0rem;
+}
+/*# sourceMappingURL=style.css.map */
