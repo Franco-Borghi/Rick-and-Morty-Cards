@@ -12,11 +12,11 @@
           justify-content: center;
 }
 
-.cards__section .title-container {
+.cards__section .title__div--container {
   max-width: 1020px;
 }
 
-.cards__section .title-container h1 {
+.cards__section .title__div--container h1 {
   margin: 0;
   padding-left: 20px;
 }
