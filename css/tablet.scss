@@ -7,14 +7,18 @@
 	justify-content: center;
 }
 
-.cards__section .title__div--container {
+.cards__section {
+    top: -280px;
+    .title__div--container {
     max-width: 680px;
-     h1 {
-    margin: 0;
-    padding-left: 20px;
-     }
+    margin-bottom: 100px;
+        h1 {
+        font-size: 5.0rem;
+        margin: 0;
+        padding-left: 20px;
+        }
+    }
 }
-
 .character-card {
     margin-left: 0;
     margin-right: 0;

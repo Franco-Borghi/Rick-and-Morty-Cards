@@ -58,12 +58,13 @@ header {
 
 .cards__section {
     position: relative;
-    top: -100px;
+    top: -110px;
     .title__div--container {
         max-width: 1020px;
         display: flex; 
         margin-left: auto;
         margin-right: auto;
+        padding-bottom: 15px;
         h1 {
             font-family: "Inter", sans-serif;
             margin: 0 auto;

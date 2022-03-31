@@ -12,11 +12,17 @@
           justify-content: center;
 }
 
+.cards__section {
+  top: -280px;
+}
+
 .cards__section .title__div--container {
   max-width: 680px;
+  margin-bottom: 100px;
 }
 
 .cards__section .title__div--container h1 {
+  font-size: 5.0rem;
   margin: 0;
   padding-left: 20px;
 }
